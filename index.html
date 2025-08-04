@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon - Shop Online for Electronics, Apparel, Computers & More</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    <img src="assests/WhatsApp Image 2025-08-04 at 14.08.06_f1c7263b.jpg" alt="Amazon logo" width="113" height="40">
+                </a>
+                <div class="delivery-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="deliver-to">Deliver to</span>
+                        <span class="location">United Kingdom</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <div class="search-categories">
+                    <select aria-label="Search categories">
+                        <option>All</option>
+                        <option>Electronics</option>
+                        <option>Computers</option>
+                        <option>Home & Kitchen</option>
+                        <option>Books</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <input type="text" placeholder="Search Amazon" aria-label="Search Amazon">
+                <button class="search-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="header-actions">
+                <div class="language-selector">
+                    
+                    <span>EN</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                
+                <div class="account-actions">
+                    <div class="account-dropdown">
+                        <span class="greeting">Hello, Sign in</span>
+                        <span class="account">Accouant & Lists</span>
+                    </div>
+                </div>
+                
+                <div class="returns-orders">
+                    <span class="returns">Returns</span>
+                    <span class="orders">& Orders</span>
+                </div>
+                
+                <div class="cart">
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <span class="cart-text">Cart</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#"><i class="fas fa-bars"></i> All</a>
+                </li>
+                <li class="nav-item"><a href="#">Today's Deals</a></li>
+                <li class="nav-item"><a href="#">Customer Service</a></li>
+                <li class="nav-item"><a href="#">Registry</a></li>
+                <li class="nav-item"><a href="#">Gift Cards</a></li>
+                <li class="nav-item"><a href="#">Sell</a></li>
+                <li class="nav-item"><a href="#">Local Delivery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="mobile-logo">
+            <img src="assests/WhatsApp Image 2025-08-04 at 14.08.06_f1c7263b.jpg" alt="Amazon logo" width="100" height="35">
+        </div>
+        <div class="mobile-search">
+            <input type="text" placeholder="Search Amazon">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner" aria-label="Featured products">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="assests/image/deal.jpg" alt="Amazon Prime Day Deals">
+                <div class="slide-content">
+                    <h1>Prime Day Deals</h1>
+                    <p>Exclusive deals for Prime members</p>
+                    <button class="shop-now-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assests/image/sale.jpg" alt="Summer Sale">
+                <div class="slide-content">
+                    <h1>Summer Sale</h1>
+                    <p>Up to 50% off on selected items</p>
+                    <button class="shop-now-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="slide-nav">
+                <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="slide-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Category -->
+    <section class="shop-categories" aria-label="Shop by category">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img  src="assests/image/electronic.jpg" alt="Electronics" >
+                <h3>Electronics</h3>
+                <button>Shop now</button>
+            </div>
+            <div class="category-card">
+                <img src="assests/image/laptops.jpeg" alt="Computers" >
+                <h3>Computers</h3>
+                <button>Shop now</button>
+            </div>
+            <div class="category-card">
+                <img src="assests/image/electronic.jpg" alt="Home & Kitchen" >
+                <h3>Home & Kitchen</h3>
+                <button>Shop now</button>
+            </div>
+            <div class="category-card">
+                <img src="assests/image/book.jpg" alt="Books">
+                <h3>Books</h3>
+                <button>Shop now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals-section" aria-label="Today's deals">
+        <div class="section-header">
+            <h2 class="section-title">Today's Deals</h2>
+            <a href="#" class="see-all">See all deals</a>
+        </div>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-badge">25% off</div>
+                <img src="assests/image/headphone.jpg" alt="Wireless Headphones" >
+                <div class="deal-price">
+                    <span class="current-price">£59.99</span>
+                    <span class="original-price">£79.99</span>
+                </div>
+                <p class="deal-title">Wireless Headphones with Noise Cancellation</p>
+            </div>
+            <!-- More deal cards -->
+        </div>
+    </section>
+
+    <!-- Prime Section -->
+    <section class="prime-section" aria-label="Amazon Prime">
+        <div class="prime-container">
+            <div class="prime-content">
+                <h2>Enjoy fast, free delivery, exclusive deals, and award-winning entertainment with Prime</h2>
+                <p>Join Prime for just £8.99/month</p>
+                <button class="prime-btn">Try Prime</button>
+            </div>
+            <div class="prime-image">
+                <img src="assests/WhatsApp Image 2025-08-04 at 14.08.06_f1c7263b.jpg" alt="Amazon Prime" >
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended for You -->
+    <section class="recommended-section" aria-label="Recommended for you">
+        <h2 class="section-title">Recommended for You</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="assests/image/smartwatch.jpg" alt="Smart Watch" >
+                <h3 class="product-title">Smart Watch with Fitness Tracker</h3>
+                <div class="product-rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="rating-count">1,234</span>
+                </div>
+                <div class="product-price">£129.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- More product cards -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <button class="back-to-top">
+                <span>Back to top</span>
+            </button>
+        </div>
+        
+        <div class="footer-middle">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Amazon Payment Products</h3>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="assests/WhatsApp Image 2025-08-04 at 14.08.06_f1c7263b.jpg" alt="Amazon logo" width="93" height="30">
+            </div>
+            
+            <div class="footer-links">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
